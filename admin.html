@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f2">
+  <meta name="description" content="Lokale Verwaltung der Klettersteige und Sperrstatus." />
+  <title>Klettersteig-Verwaltung — Steigwetter</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/admin.js"></script>
+</head>
+<body class="admin-page">
+  <header class="topbar admin-topbar">
+    <a class="brand" href="index.html" aria-label="Zurück zu Steigwetter"><span class="brand-mark">↗</span><span>STEIG<span class="brand-light">WETTER</span></span></a>
+    <a class="admin-back" href="admin/ai-manager.html">KI-Datenmanager →</a>
+    <a class="admin-back" href="index.html">← Zum Tourenportal</a>
+  </header>
+  <main class="admin-shell">
+    <section class="admin-hero">
+      <div><div class="eyebrow"><span class="eyebrow-line"></span> LOKALE VERWALTUNG</div><h1>Klettersteig-Verwaltung</h1><p>Tourendaten pflegen, Sperrstatus dokumentieren und Änderungen als JSON veröffentlichen.</p></div>
+      <div class="admin-actions">
+        <button class="admin-button secondary" id="import-button" type="button">JSON importieren</button>
+        <button class="admin-button secondary" id="export-button" type="button">JSON exportieren</button>
+        <button class="admin-button primary" id="add-button" type="button">＋ Neuer Klettersteig</button>
+        <input id="import-file" type="file" accept="application/json,.json" hidden>
+      </div>
+    </section>
+    <div class="admin-notice" id="admin-notice" role="status" hidden></div>
+    <section class="admin-storage-note"><strong>Nur lokal gespeichert</strong><span>Änderungen bleiben in diesem Browser erhalten. GitHub Pages kann die Repository-Datei nicht selbst ändern. Exportiere nach der Pflege die JSON-Datei und veröffentliche sie über einen Commit.</span><a href="README.md#administration-und-veröffentlichen">Veröffentlichungsschritte</a></section>
+    <section class="admin-summary" id="admin-summary" aria-live="polite"></section>
+    <section class="admin-filters" aria-label="Klettersteige filtern">
+      <label class="admin-search"><span>Name suchen</span><input id="search-filter" type="search" placeholder="Zum Beispiel Drachenwand"></label>
+      <label><span>Land</span><select id="country-filter"><option value="">Alle Länder</option></select></label>
+      <label><span>Region</span><select id="region-filter"><option value="">Alle Regionen</option></select></label>
+      <label><span>Schwierigkeit</span><select id="difficulty-filter"><option value="">Alle Grade</option></select></label>
+      <label><span>Sperrstatus</span><select id="closure-filter"><option value="">Alle Status</option></select></label>
+      <label><span>GPS-Daten</span><select id="gps-filter"><option value="">Alle GPS-Daten</option><option value="missing">Fehlend</option><option value="partial">Teilweise</option><option value="complete">Vollständig</option></select></label>
+      <label><span>Wetterdaten</span><select id="weather-filter"><option value="">Alle Wetterdaten</option><option value="missing">Fehlend</option><option value="partial">Teilweise</option><option value="complete">Vollständig</option></select></label>
+    </section>
+    <section class="admin-list-section">
+      <div class="admin-list-heading"><h2>Alle Klettersteige</h2><span id="visible-count"></span></div>
+      <div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Klettersteig</th><th>Region · Land</th><th>GPS</th><th>Wetter</th><th>Sperrstatus</th><th>Zuletzt geprüft</th><th></th></tr></thead><tbody id="admin-table-body"></tbody></table></div>
+      <div class="admin-card-list" id="admin-card-list"></div>
+      <p class="admin-empty" id="admin-empty" hidden>Keine Klettersteige für diese Filter gefunden.</p>
+    </section>
+  </main>
+
+  <dialog id="edit-dialog" class="admin-dialog">
+    <form id="route-form" class="admin-form">
+      <div class="form-heading"><div><div class="eyebrow small">TOURENDATEN</div><h2 id="form-title">Klettersteig bearbeiten</h2></div><div class="form-heading-actions"><button class="route-active-toggle is-active" id="route-active-toggle" type="button" aria-pressed="true">● Aktiv</button><button class="dialog-close" id="close-dialog" type="button" aria-label="Schließen">×</button></div></div>
+      <input id="route-id" type="hidden">
+      <section class="route-import-panel" id="route-import-panel" aria-labelledby="route-import-title" hidden>
+        <div><div class="eyebrow small">QUELLE ZUM STARTEN</div><h3 id="route-import-title">Klettersteig per URL importieren</h3><p>Die Seite wird serverseitig gelesen. Importwerte füllen nur leere Felder und müssen vor dem Speichern geprüft werden.</p></div>
+        <div class="route-import-controls"><label for="route-import-url">Touren-URL</label><div><input id="route-import-url" type="url" inputmode="url" placeholder="https://www.bergsteigen.com/touren/…" autocomplete="url"><button class="admin-button secondary" id="route-import-button" type="button">Per Server-Import laden</button></div></div>
+        <p class="route-import-status" id="route-import-status" role="status" aria-live="polite"></p>
+        <div class="route-import-results" id="route-import-results" hidden></div>
+      </section>
+      <div class="form-grid">
+        <label class="span-2"><span>Name</span><input id="route-name" required maxlength="160"></label>
+        <label><span>Schwierigkeit</span><input id="route-difficulty" required maxlength="12" placeholder="C/D"></label>
+        <label><span>Region / Gebirgsgruppe</span><input id="route-range" required maxlength="100"></label>
+        <label><span>Land</span><input id="route-country" required maxlength="80"></label>
+        <label><span>AlpinVerse-Bewertung (0–5)</span><input id="route-rating" type="number" min="0" max="5" step="0.1"></label>
+        <label class="span-2"><span>Beschreibung</span><textarea id="route-description" rows="3"></textarea></label>
+      </div>
+      <fieldset class="form-fieldset"><legend>GPS und Höhen</legend><div class="form-grid">
+        <label><span>Einstieg · Latitude</span><input id="entry-lat" type="number" min="-90" max="90" step="any"></label><label><span>Einstieg · Longitude</span><input id="entry-lon" type="number" min="-180" max="180" step="any"></label><label><span>Einstieg · Höhe (m)</span><input id="entry-elevation" type="number" min="-500" max="10000" step="1"></label><label class="check-label"><input id="entry-verified" type="checkbox"><span>Einstieg GPS verifiziert</span></label><label class="span-2"><span>Einstieg · GPS-Quelle</span><input id="entry-source" type="url" placeholder="https://…"></label><label class="span-2"><span>Einstieg · Prüfhinweis</span><input id="entry-verification-note" maxlength="240"></label>
+        <label><span>Gipfel/Ausstieg · Latitude</span><input id="summit-lat" type="number" min="-90" max="90" step="any"></label><label><span>Gipfel/Ausstieg · Longitude</span><input id="summit-lon" type="number" min="-180" max="180" step="any"></label><label><span>Gipfel/Ausstieg · Höhe (m)</span><input id="summit-elevation" type="number" min="-500" max="10000" step="1"></label><label class="check-label"><input id="summit-verified" type="checkbox"><span>Gipfel GPS verifiziert</span></label><label class="span-2"><span>Gipfel/Ausstieg · GPS-Quelle</span><input id="summit-source" type="url" placeholder="https://…"></label><label class="span-2"><span>Gipfel/Ausstieg · Prüfhinweis</span><input id="summit-verification-note" maxlength="240"></label>
+      </div></fieldset>
+      <fieldset class="form-fieldset"><legend>Zeiten und Links</legend><div class="form-grid">
+        <label><span>Zustieg (Minuten)</span><input id="approach-minutes" type="number" min="0" step="1"></label><label><span>Kletterzeit (Minuten)</span><input id="climb-minutes" type="number" min="0" step="1"></label><label><span>Abstieg (Minuten)</span><input id="descent-minutes" type="number" min="0" step="1"></label><label><span>Gesamtdauer (Minuten)</span><input id="duration-minutes" type="number" min="0" step="1"></label>
+        <label class="span-2"><span>Externe Tourenlinks (eine Zeile je Link: Bezeichnung | URL)</span><textarea id="route-links" rows="4" placeholder="Bergsteigen.com | https://…"></textarea></label>
+      </div></fieldset>
+      <fieldset class="form-fieldset closure-fieldset"><legend>Sperrstatus und Prüfung</legend><div class="form-grid">
+        <label><span>Status</span><select id="closure-status"></select></label><label><span>Informationsart</span><select id="closure-source-type"><option>Offiziell bestätigt</option><option>Nicht offizielle Quelle</option><option>Nicht verifiziert</option></select></label>
+        <label class="span-2"><span>Sperrgrund / Einschränkung</span><input id="closure-reason" maxlength="240"></label>
+        <label><span>Gültig ab</span><input id="closure-from" type="date"></label><label><span>Gültig bis</span><input id="closure-until" type="date"></label>
+        <label class="span-2"><span>Quelle der Sperrstatus-Information</span><input id="closure-source" type="url" placeholder="https://…"></label>
+        <label><span>Letzte Prüfung</span><input id="closure-checked" type="date"></label>
+        <label class="check-label manual-check"><input id="closure-manual" type="checkbox"><span>Manuelle Festlegung – hat Vorrang vor automatischen Angaben</span></label>
+        <label class="span-2"><span>Interne Notiz</span><textarea id="closure-note" rows="2"></textarea></label>
+        <div class="span-2 automatic-note" id="automatic-note"></div>
+      </div></fieldset>
+      <div class="form-error" id="form-error" role="alert" hidden></div>
+      <div class="form-actions"><button class="admin-button secondary" id="duplicate-button" type="button">Duplizieren</button><button class="admin-button danger" id="delete-button" type="button">Löschen</button><span class="action-spacer"></span><button class="admin-button secondary" id="cancel-button" type="button">Abbrechen</button><button class="admin-button primary" type="submit">Änderungen lokal speichern</button></div>
+    </form>
+  </dialog>
+  <footer class="footer"><span>STEIGWETTER <span class="footer-muted">· Lokale Verwaltung</span></span><span>Lokaler Entwurf · optionaler PHP-Import</span></footer>
+</body>
+</html>

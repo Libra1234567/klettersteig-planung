@@ -1,0 +1,2033 @@
+[
+  {
+    "id": "hochalmblick",
+    "active": true,
+    "name": "Hochalmblick-Klettersteig",
+    "difficulty": "E",
+    "range": "Goldberggruppe",
+    "country": "Österreich",
+    "description": "Alpiner, ausgesetzter Gratklettersteig mit mehreren Gipfeln.",
+    "entry": {
+      "latitude": 47.1463,
+      "longitude": 13.0498,
+      "elevation": 2224,
+      "verified": false,
+      "label": "Klettersteig-Einstieg; Höhe nicht verifiziert; automatisch ermittelte Höhe aus Open-Meteo/Copernicus GLO-90",
+      "elevationSource": "Open-Meteo Elevation API · Copernicus DEM GLO-90 (90 m)"
+    },
+    "summit": {
+      "latitude": 47.151111,
+      "longitude": 13.032222,
+      "elevation": 2577,
+      "verified": false,
+      "label": "Türchlwand-Gipfel; Koordinate aus Kartenquelle, Höhe laut Tourenbeschreibung"
+    },
+    "approachMinutes": 30,
+    "climbMinutes": 120,
+    "descentMinutes": 30,
+    "durationMinutes": 180,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Ferrata Guide",
+        "url": "https://ferrata.guide/en/ferrata/Hochalmblick-Klettersteig"
+      },
+      {
+        "label": "Climbing Place",
+        "url": "https://climbing.place/ferrata/detail/goldberg-group/hochalmblick-klettersteig-9428"
+      },
+      {
+        "label": "Türchlwand Gipfelkoordinaten",
+        "url": "https://de.wikipedia.org/wiki/T%C3%BCrchlwand"
+      },
+      {
+        "label": "Open-Meteo Elevation API / Copernicus GLO-90",
+        "url": "https://open-meteo.com/en/docs/elevation-api"
+      }
+    ],
+    "dataQuality": "Einstiegskoordinate vorhanden; Türchlwand-Gipfelkoordinate kartografisch belegt; Einstiegshöhe fehlt Fehlende Einstiegshöhe automatisch per Open-Meteo Elevation API (Copernicus GLO-90) ergänzt."
+  },
+  {
+    "id": "selbhorn-herzogsteig",
+    "active": true,
+    "name": "Selbhorn-Klettersteig-Herzogsteig",
+    "difficulty": "C/D",
+    "range": "Berchtesgadener Alpen",
+    "country": "Österreich",
+    "description": "Lange alpine Klettersteigtour auf das Selbhorn; die Gipfelkoordinate bezeichnet den Südgipfel. Der Einstieg ist geografisch noch nicht verifiziert.",
+    "entry": {
+      "latitude": 47.4418044,
+      "longitude": 12.9607428,
+      "elevation": 2200,
+      "verified": false,
+      "label": "Herzogsteig-Einstieg laut ViaFerraty.cz; Höhe 2.200 m laut Alpenverein-Tourenbeschreibung"
+    },
+    "summit": {
+      "latitude": 47.4463589,
+      "longitude": 12.9636881,
+      "elevation": 2655,
+      "verified": false,
+      "label": "Selbhorn-Hauptgipfel; Koordinate laut ViaFerraty.cz/SummitLynx, Höhe 2.655 m"
+    },
+    "approachMinutes": null,
+    "climbMinutes": 120,
+    "descentMinutes": 240,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/klettersteig/selbhorn_klettersteig/1686"
+      },
+      {
+        "label": "Bergsteigen.com",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/selbhorn-klettersteig-herzogsteig/"
+      },
+      {
+        "label": "ViaFerraty.cz (Einstieg und Gipfelkoordinate)",
+        "url": "https://viaferraty.cz/ferrata/via-ferrata-selbhorn-klettersteig-herzogsteig/"
+      },
+      {
+        "label": "Alpenverein München-Oberland (Einstiegshöhe)",
+        "url": "https://www.alpenverein-muenchen-oberland.de/uploads/images/74wo0nHRynt1pm8xhWidNw/selbhorn.pdf"
+      },
+      {
+        "label": "SummitLynx Selbhorn (Gipfel)",
+        "url": "https://www.summitlynx.com/hr/location/RWaKSTxk/selbhorn/"
+      }
+    ],
+    "dataQuality": "Einstieg und Hauptgipfel anhand Tourenquelle verortet; Einstiegshöhe aus Alpenverein-Unterlage."
+  },
+  {
+    "id": "geiler-hengst",
+    "active": true,
+    "name": "Klettersteig Geiler Hengst",
+    "difficulty": "E",
+    "range": "Oberösterreichische Voralpen",
+    "country": "Österreich",
+    "description": "Sehr schwieriger Sportklettersteig an der Kampermauer.",
+    "entry": {
+      "latitude": 47.68323,
+      "longitude": 14.490783,
+      "elevation": 851,
+      "verified": true,
+      "label": "Einstieg"
+    },
+    "summit": {
+      "latitude": 47.683589,
+      "longitude": 14.490039,
+      "elevation": 1034,
+      "verified": true,
+      "label": "Ausstieg"
+    },
+    "approachMinutes": 15,
+    "climbMinutes": 90,
+    "descentMinutes": 45,
+    "durationMinutes": 150,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/print.php?id=1963"
+      },
+      {
+        "label": "GBL Outdoor",
+        "url": "https://www.gbl-outdoor.com/tour/geiler-hengst-kampermauer-totes-gebirge-klettersteig-2147"
+      }
+    ],
+    "dataQuality": "Einstiegs- und Ausstiegskoordinaten sowie Höhen aus Tourenquelle."
+  },
+  {
+    "id": "bert-rinesch",
+    "active": true,
+    "name": "Bert Rinesch - Klettersteig",
+    "difficulty": "D",
+    "range": "Totes Gebirge",
+    "country": "Österreich",
+    "description": "Lange alpine Route auf den Großen Priel. Aktuelle Quellen weisen darauf hin, dass die ursprüngliche Route verändert beziehungsweise ersetzt wurde.",
+    "entry": {
+      "latitude": 47.71423,
+      "longitude": 14.06662,
+      "elevation": 1840,
+      "verified": false,
+      "label": "Ungefähre Startposition aus ViaTrek; nicht als aktueller Wandzustieg verifiziert"
+    },
+    "summit": {
+      "latitude": 47.71694,
+      "longitude": 14.06325,
+      "elevation": 2515,
+      "verified": false,
+      "label": "Großer Priel; Gipfelkoordinate aus OpenStreetMap/Mapcarta"
+    },
+    "approachMinutes": 180,
+    "climbMinutes": null,
+    "descentMinutes": 240,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Bergsteigen.com",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/bert-rinesch-klettersteig/"
+      },
+      {
+        "label": "Via Ferrata",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/bert-rinesch-klettersteig"
+      },
+      {
+        "label": "ViaTrek (Start-GPS)",
+        "url": "https://viatrek.fr/en/via-ferrata/bert-rinesch-klettersteig/"
+      },
+      {
+        "label": "OpenStreetMap Großer Priel",
+        "url": "https://www.openstreetmap.org/?mlat=47.71694&mlon=14.06325#map=16/47.71694/14.06325"
+      }
+    ],
+    "dataQuality": "Einstieg nur näherungsweise lokalisiert; Route laut Quellen durch Priel-Klettersteig ersetzt; vor Begehung Status prüfen."
+  },
+  {
+    "id": "wilder-hund",
+    "active": true,
+    "name": "Klettersteig Wilder Hund",
+    "difficulty": "D",
+    "range": "Loferer und Leoganger Steinberge",
+    "country": "Österreich",
+    "description": "Hochalpine Route im Bereich Wehrgrubenjoch; Einstiegshöhe aus Tourenbeschreibung.",
+    "entry": {
+      "latitude": 47.5466,
+      "longitude": 12.6344,
+      "elevation": 2160,
+      "verified": false,
+      "label": "Einstieg; Höhe laut Bergsteigen.com, GPS näherungsweise"
+    },
+    "summit": {
+      "latitude": 47.54703,
+      "longitude": 12.63308,
+      "elevation": 2372,
+      "verified": false,
+      "label": "Ausstiegsübergang zum Nackter-Hund-Klettersteig; Koordinate aus ungefährer Einstiegsposition, nicht exakt bestätigt"
+    },
+    "approachMinutes": 195,
+    "climbMinutes": 60,
+    "descentMinutes": 225,
+    "durationMinutes": 480,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Bergsteigen.com",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/klettersteig-wilder-hund/"
+      },
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/klettersteig/wilder_hund_klettersteig/2095"
+      },
+      {
+        "label": "Ferrata Guide",
+        "url": "https://ferrata.guide/de/ferrata/Klettersteig_Wilder_Hund"
+      },
+      {
+        "label": "ViaTrek (ungefähre Nackter-Hund-Einstiegsposition)",
+        "url": "https://viatrek.fr/en/via-ferrata/nackter-hund-klettersteig/"
+      }
+    ],
+    "dataQuality": "Einstiegspunkt näherungsweise; der Ausstieg führt direkt zum Nackter-Hund-Einstieg. Dieser Übergangspunkt ist nicht exakt bestätigt."
+  },
+  {
+    "id": "nackter-hund",
+    "active": true,
+    "name": "Klettersteig Nackter Hund",
+    "difficulty": "D",
+    "range": "Loferer und Leoganger Steinberge",
+    "country": "Österreich",
+    "description": "Anspruchsvoller hochalpiner Klettersteig zum Mitterhorn.",
+    "entry": {
+      "latitude": 47.54703,
+      "longitude": 12.63308,
+      "elevation": 2273,
+      "verified": false,
+      "label": "Näherungskoordinate zum Klettersteig-Einstieg; Position von ViaTrek als ungefähr gekennzeichnet; automatisch ermittelte Höhe aus Open-Meteo/Copernicus GLO-90",
+      "elevationSource": "Open-Meteo Elevation API · Copernicus DEM GLO-90 (90 m)"
+    },
+    "summit": {
+      "latitude": 47.549167,
+      "longitude": 12.628611,
+      "elevation": 2506,
+      "verified": true,
+      "label": "Mitterhorn-Gipfel; Koordinate aus kartografischer Gipfelquelle"
+    },
+    "approachMinutes": 210,
+    "climbMinutes": 60,
+    "descentMinutes": 180,
+    "durationMinutes": 450,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Bergsteigen.com",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/klettersteig-nackter-hund/"
+      },
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/klettersteig/nackter_hund_klettersteig/228"
+      },
+      {
+        "label": "ViaTrek (Einstieg ungefähr)",
+        "url": "https://viatrek.fr/en/via-ferrata/nackter-hund-klettersteig/"
+      },
+      {
+        "label": "Mitterhorn Gipfelkoordinaten",
+        "url": "https://www.hoehenrausch.de/berge/mitterhorn/"
+      },
+      {
+        "label": "Open-Meteo Elevation API / Copernicus GLO-90",
+        "url": "https://open-meteo.com/en/docs/elevation-api"
+      }
+    ],
+    "dataQuality": "Einstiegsposition nur näherungsweise; Gipfelkoordinate kartografisch belegt. Klettersteigstatus vor Begehung prüfen Fehlende Einstiegshöhe automatisch per Open-Meteo Elevation API (Copernicus GLO-90) ergänzt."
+  },
+  {
+    "id": "franzl-huettschlag",
+    "active": true,
+    "name": "Franzl - Klettersteig (Variante D/E)",
+    "difficulty": "D",
+    "range": "Radstädter Tauern",
+    "country": "Österreich",
+    "description": "Ausgesetzter Klettersteig an der Hüttschlager Wand; eine Variante ist mit D/E bewertet.",
+    "entry": {
+      "latitude": 47.1771,
+      "longitude": 13.2365,
+      "elevation": 1100,
+      "verified": false,
+      "label": "GPS-Position des Franzl-Steigs laut ViaPeaks; Einstiegsgenauigkeit nicht unabhängig bestätigt"
+    },
+    "summit": {
+      "latitude": 47.1773,
+      "longitude": 13.238128,
+      "elevation": 1320,
+      "verified": true,
+      "label": "Hüttschlager Wand: Gipfelkoordinate laut Großarltal-Tourenportal, Zielhöhe 1.320 m laut Klettersteig.de",
+      "source": "https://touren.grossarltal.info/de/poi/klettern/klettersteig-franzl/812711199/",
+      "additionalSource": "https://klettersteig.de/klettersteig/franzl_klettersteig/1866"
+    },
+    "approachMinutes": 20,
+    "climbMinutes": 95,
+    "descentMinutes": 35,
+    "durationMinutes": 150,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Alpintouren.com",
+        "url": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_31808.html"
+      },
+      {
+        "label": "Großarltal Tourismus",
+        "url": "https://www.grossarltal.info/de/touren/huettschlag-franzl.html"
+      },
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/print.php?id=1866"
+      },
+      {
+        "label": "Klettersteig.de Franzl",
+        "url": "https://klettersteig.de/klettersteig/franzl_klettersteig/1866"
+      },
+      {
+        "label": "ViaPeaks Franzl",
+        "url": "https://viapeaks.com/via/franzl-klettersteig-huttschlag"
+      },
+      {
+        "label": "Großarltal Tourenportal (Hüttschlager Wand)",
+        "url": "https://touren.grossarltal.info/de/poi/klettern/klettersteig-franzl/812711199/"
+      }
+    ],
+    "dataQuality": "GPS-Punkt und Zielhöhe der Hüttschlager Wand laut Großarltal-Tourenportal und Klettersteig.de."
+  },
+  {
+    "id": "bella-cascinaia",
+    "active": true,
+    "name": "Bella Cascinaia",
+    "difficulty": "D/E",
+    "range": "Radstädter Tauern",
+    "country": "Österreich",
+    "description": "Kurzer, anspruchsvoller Klettersteig auf den Saukarkopf mit langem Zustieg.",
+    "entry": {
+      "latitude": 47.254722,
+      "longitude": 13.23,
+      "elevation": 1930,
+      "verified": true,
+      "label": "Einstieg N 47°15'17″ E 13°13'48″; 1.930 m laut Alpenverein Großarl"
+    },
+    "summit": {
+      "latitude": 47.254167,
+      "longitude": 13.233056,
+      "elevation": 2048,
+      "verified": true,
+      "label": "Saukarkopf-Gipfel; Koordinate aus GNS/Austrian Map über Wikidata"
+    },
+    "approachMinutes": 150,
+    "climbMinutes": 45,
+    "descentMinutes": 120,
+    "durationMinutes": 315,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/klettersteig/bella_cascinaia_klettersteig/1447"
+      },
+      {
+        "label": "Klettersteig.de Bella Cascinaia",
+        "url": "https://klettersteig.de/klettersteig/bella_cascinaia_klettersteig/1447"
+      },
+      {
+        "label": "Großarltal Tourenbeschreibung",
+        "url": "https://www.grossarltal.info/de/touren/grossarl-bella-cascinaia.html"
+      },
+      {
+        "label": "Alpenverein Großarl Tourenhinweis",
+        "url": "https://www.alpenverein.at/portal_wAssets/z_alt/portal/Home/Downloads/Bergauf_3_09/Schwann_Grossarl.pdf"
+      },
+      {
+        "label": "Saukarkopf Kartenkoordinate",
+        "url": "https://www.wikidata.org/wiki/Q21865372"
+      }
+    ],
+    "dataQuality": "Einstiegskoordinate und -höhe laut Alpenverein Großarl; Saukarkopf-Gipfel kartografisch belegt."
+  },
+  {
+    "id": "irg-ii",
+    "active": true,
+    "name": "Irg II (2) - Klettersteig",
+    "difficulty": "C/D",
+    "range": "Dachsteingebirge",
+    "country": "Österreich",
+    "description": "Neu trassierter Ersatz des ursprünglichen Irg-Klettersteigs am Dachstein.",
+    "entry": {
+      "latitude": 47.465496,
+      "longitude": 13.639932,
+      "elevation": 2650,
+      "verified": false,
+      "label": "Einstieg GPS laut Via-Ferrata-Tourenbeschreibung; Einstiegshöhe separat unbekannt; automatisch ermittelte Höhe aus Open-Meteo/Copernicus GLO-90",
+      "elevationSource": "Open-Meteo Elevation API · Copernicus DEM GLO-90 (90 m)"
+    },
+    "summit": {
+      "latitude": 47.466111,
+      "longitude": 13.64,
+      "elevation": 2865,
+      "verified": true,
+      "label": "Großer Koppenkarstein-Gipfel; kartografische Koordinate, Gipfelhöhe laut Tourenquelle"
+    },
+    "approachMinutes": 90,
+    "climbMinutes": 120,
+    "descentMinutes": 75,
+    "durationMinutes": 285,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Klettersteig.de (Hinweis auf IRG II)",
+        "url": "https://klettersteig.de/klettersteig/irgaklettersteig/1123"
+      },
+      {
+        "label": "Via-Ferrata Irg II (Einstieg/Gipfelhöhe)",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/klettersteig-irg-ii"
+      },
+      {
+        "label": "Großer Koppenkarstein Koordinaten",
+        "url": "https://de.wikipedia.org/wiki/Gro%C3%9Fer_Koppenkarstein"
+      },
+      {
+        "label": "Open-Meteo Elevation API / Copernicus GLO-90",
+        "url": "https://open-meteo.com/en/docs/elevation-api"
+      }
+    ],
+    "dataQuality": "Einstieg und Gipfelpunkt aus Touren-/Gipfelquellen ergänzt; Einstiegshöhe nicht separat verifiziert Fehlende Einstiegshöhe automatisch per Open-Meteo Elevation API (Copernicus GLO-90) ergänzt."
+  },
+  {
+    "id": "spielmaeuer-felix",
+    "active": true,
+    "name": "Felix' Himmelsleiter / Klettersteig Spielmäuer",
+    "difficulty": "D",
+    "range": "Hochschwabgruppe",
+    "country": "Österreich",
+    "description": "Klettersteig an der Spielmäuer; Detaildaten noch nicht recherchiert.",
+    "entry": {
+      "latitude": 47.68921,
+      "longitude": 15.31508,
+      "elevation": 1150,
+      "verified": false,
+      "label": "Routenstart laut Klettr-Karte; Höhe 1.150 m laut Bergsteigen.com, GPS-Punkt nicht unabhängig bestätigt"
+    },
+    "summit": {
+      "latitude": 47.6906,
+      "longitude": 15.3171,
+      "elevation": 1360,
+      "source": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_28974.html",
+      "additionalSource": "https://bing.com/search?q=Felix+Himmelsleiter+Spielm%C3%A4uer+Gipfel",
+      "verified": true,
+      "label": "Spielmäuer-Gipfel laut Alpintouren; nicht zwingend identisch mit dem Klettersteig-Ausstieg"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Klettr Felix' Himmelsleiter (Routenstart)",
+        "url": "https://www.klettr.com/ferrata/felix-himmelsleiter"
+      },
+      {
+        "label": "Bergsteigen.com (Einstiegshöhe und Tourendaten)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/felix-himmelsleiter-klettersteig-spielmaeuer/"
+      },
+      {
+        "label": "Alpenverein Graz-Übelbachtal (Spielmäuer-Gipfelhöhe)",
+        "url": "https://www.alpenverein.at/graz-uebelbachtal_wAssets/mixed/download/Tourenbeschreibungen/Spielmaeuer-Klettersteig-od.-Wanderung.pdf"
+      },
+      {
+        "label": "Alpintouren (Spielmäuer GPS und Höhe)",
+        "url": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_28974.html"
+      }
+    ],
+    "dataQuality": "Einstiegsposition nicht unabhängig bestätigt; Spielmäuer-Gipfel GPS/Höhe laut Alpintouren, tatsächlicher Routenausstieg nicht eindeutig belegt.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Kletterpark Spielmäuer in der Winterruhe.",
+      "validFrom": "2026-11-16",
+      "validTo": "2027-04-30",
+      "source": "https://www.mariazell.at/sommer/wandern/kletterpark-spielmaeuer/",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Status laut bereitgestellter offizieller Meldung am 18.11.2026 erfasst; nach Ablauf des Zeitraums wird er als unbekannt behandelt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "franzi-reiteralm",
+    "active": true,
+    "name": "Franzi Klettersteig Reiteralm",
+    "difficulty": "C/D",
+    "range": "Schladminger Tauern",
+    "country": "Österreich",
+    "description": "Klettersteig durch die Gasselwand zwischen Wanderwegen des Reiteralm-Rundwegs.",
+    "entry": {
+      "latitude": 47.3499628,
+      "longitude": 13.5962228,
+      "elevation": 1842,
+      "verified": false,
+      "label": "Klettersteig-Einstieg laut GPS-Track; automatisch ermittelte Höhe aus Open-Meteo/Copernicus GLO-90",
+      "elevationSource": "Open-Meteo Elevation API · Copernicus DEM GLO-90 (90 m)"
+    },
+    "summit": {
+      "latitude": 47.3409194,
+      "longitude": 13.5992803,
+      "elevation": 2006,
+      "verified": true,
+      "label": "Ausstieg Richtung Gasselhöhe"
+    },
+    "approachMinutes": 30,
+    "climbMinutes": 60,
+    "descentMinutes": 30,
+    "durationMinutes": 120,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/klettersteig/franzi_klettersteig/2084"
+      },
+      {
+        "label": "Via Ferrata",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/klettersteig-franzi-reiteralm"
+      },
+      {
+        "label": "Reiteralm Tourismus",
+        "url": "https://www.reiteralm.at/en/activities/climbing/via-ferrata-franzi"
+      },
+      {
+        "label": "Open-Meteo Elevation API / Copernicus GLO-90",
+        "url": "https://open-meteo.com/en/docs/elevation-api"
+      }
+    ],
+    "dataQuality": "Koordinaten aus Touren-GPS; Einstiegshöhe nicht recherchiert Fehlende Einstiegshöhe automatisch per Open-Meteo Elevation API (Copernicus GLO-90) ergänzt.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Betreiber meldet: Klettersteig Franzi ist gesperrt.",
+      "validFrom": "2026-11-18",
+      "validTo": "2027-04-30",
+      "source": "https://www.reiteralm.at/de/aktivitaeten/klettern/klettersteig-franzi",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Status laut bereitgestellter offizieller Meldung am 18.11.2026 erfasst; nach Ablauf des Zeitraums wird er als unbekannt behandelt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "schlicker-ochsenwand",
+    "active": true,
+    "name": "Schlicker (Ochsenwand) Klettersteig",
+    "difficulty": "C/D",
+    "range": "Stubaier Alpen",
+    "country": "Österreich",
+    "description": "Klettersteig an der Ochsenwand im Gebiet der Kalkkögel.",
+    "entry": {
+      "latitude": 47.149626,
+      "longitude": 11.284626,
+      "elevation": 2000,
+      "verified": true,
+      "label": "Klettersteig-Einstieg laut Outdooractive (verifizierter Stubai-Partner); Höhe 2.000 m laut Bergsteigen.com"
+    },
+    "summit": {
+      "latitude": 47.154456,
+      "longitude": 11.278539,
+      "elevation": 2700,
+      "verified": true,
+      "label": "Große Ochsenwand-Gipfel; GPS aus Deine Berge, Höhe 2700 m"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Klettersteig.de (Tour und Zielhöhe)",
+        "url": "https://klettersteig.de/print.php?id=170"
+      },
+      {
+        "label": "Outdooractive / Stubai (Einstiegskoordinate)",
+        "url": "https://www.outdooractive.com/de/poi/stubaital/klettersteig-ochsenwand/37804478/"
+      },
+      {
+        "label": "Bergsteigen.com (Einstiegshöhe, Zeiten und Gipfelhöhe)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/schlicker-klettersteig/"
+      },
+      {
+        "label": "Via-Ferrata.de (Topo und Einstieg)",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/schlicker-klettersteig"
+      },
+      {
+        "label": "Deine Berge (Große Ochsenwand)",
+        "url": "https://www.deine-berge.de/POI/Berg-Gipfel/Oesterreich/Stubaier-Alpen/Hoehe-2700m/9792/Grosse-Ochsenwand.html"
+      }
+    ],
+    "dataQuality": "Einstiegskoordinate laut Outdooractive/Stubai; Einstiegshöhe, Schwierigkeit und Gipfelhöhe laut Bergsteigen.com; Gipfelkoordinate aus Deine Berge."
+  },
+  {
+    "id": "innsbrucker",
+    "active": true,
+    "name": "Innsbrucker Klettersteig",
+    "difficulty": "C/D",
+    "range": "Karwendel",
+    "country": "Österreich",
+    "description": "Mehrteiliger Höhenklettersteig über der Nordkette bei Innsbruck.",
+    "entry": {
+      "latitude": 47.28442,
+      "longitude": 11.39539,
+      "elevation": 2269,
+      "verified": true,
+      "label": "Hafelekar-Bergstation als Startpunkt; 10 Minuten Zustieg zum eigentlichen Einstieg laut Innsbruck Tourismus"
+    },
+    "summit": {
+      "latitude": 47.312778,
+      "longitude": 11.366389,
+      "elevation": 2480,
+      "verified": false,
+      "label": "Kemacher-Höchsterpunkt des Klettersteigs; Koordinate aus Gipfelkarte, Höhe laut Innsbruck Tourismus"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Innsbruck Tourismus (Einstieg, Ausstieg, Höhen und Zeiten)",
+        "url": "https://www.tirol.at/aktivitaeten/sport/klettern/alle-klettersteige/innsbrucker-klettersteig"
+      },
+      {
+        "label": "Klettersteig.de (Hafelekar GPS)",
+        "url": "https://klettersteig.de/print.php?id=115"
+      },
+      {
+        "label": "Kemacher Koordinaten",
+        "url": "https://de.wikipedia.org/wiki/Kemacher"
+      }
+    ],
+    "dataQuality": "Hauptroute mit Start an der Hafelekar-Bergstation und Höchstpunkt Kemacher; Ausstieg erfolgt am Frau-Hitt-Sattel.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Offizielle Wintersaison-/Saisonsperre der Nordkettenbahn.",
+      "validFrom": "2026-11-01",
+      "validTo": "2027-03-31",
+      "source": "https://nordkette.com/angebote/sommer/klettersteig/",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Status laut bereitgestellter offizieller Meldung am 18.11.2026 erfasst; nach Ablauf des Zeitraums wird er als unbekannt behandelt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "achensee-5-gipfel",
+    "active": true,
+    "name": "Achensee - 5 Gipfel - Klettersteig",
+    "difficulty": "D",
+    "range": "Rofangebirge",
+    "country": "Österreich",
+    "description": "Klettersteigverbund über mehrere Gipfel im Rofangebirge.",
+    "entry": {
+      "latitude": 47.441667,
+      "longitude": 11.763056,
+      "elevation": 1834,
+      "verified": true,
+      "label": "Erfurter Hütte/Bergstation als Haupteinstieg laut Alpenverein"
+    },
+    "summit": {
+      "latitude": 47.458467,
+      "longitude": 11.764603,
+      "elevation": 2299,
+      "verified": false,
+      "label": "Hochiss-Gipfel; Koordinate aus Gipfelkartenquelle, Höhe laut Achensee Tourismus"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Achensee Tourismus (Route und Hochiss-Höhe)",
+        "url": "https://www.achensee.com/de/sommerurlaub/achensee-5-gipfel-klettersteig/"
+      },
+      {
+        "label": "Alpenverein Erfurter Hütte (GPS und Höhe)",
+        "url": "https://www.alpenverein.at/huetten/0531.php"
+      },
+      {
+        "label": "Geofinder Hochiss (Gipfelkoordinate)",
+        "url": "https://geofinder.ch/8386"
+      }
+    ],
+    "dataQuality": "Einstieg an Erfurter Hütte und Zielgipfel Hochiss belegt; Rundtour mit mehreren Klettersteigen, daher repräsentative Punkte."
+  },
+  {
+    "id": "kaiser-franz-joseph-seemauer",
+    "active": true,
+    "name": "Kaiser Franz Joseph Klettersteig - Seemauer",
+    "difficulty": "D",
+    "range": "Hochschwabgruppe",
+    "country": "Österreich",
+    "description": "Klettersteig an der Seemauer über dem Grünen See.",
+    "entry": {
+      "latitude": 47.5779,
+      "longitude": 14.8505,
+      "elevation": 815,
+      "verified": false,
+      "label": "Klettersteig-Position laut Ferrata Guide; Einstiegshöhe nicht belegt; automatisch ermittelte Höhe aus Open-Meteo/Copernicus GLO-90",
+      "elevationSource": "Open-Meteo Elevation API · Copernicus DEM GLO-90 (90 m)"
+    },
+    "summit": {
+      "latitude": 47.575,
+      "longitude": 14.855,
+      "elevation": 1650,
+      "source": "https://klettersteig.de/klettersteig/x/1549",
+      "verified": false,
+      "verificationNote": "Höhe bestätigt, GPS-Koordinaten angenähert; nicht für Wetter oder Kartenmarker verwenden.",
+      "label": "Ungefähre Seemauer-Zielposition; GPS nicht verifiziert"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Open-Meteo Elevation API / Copernicus GLO-90",
+        "url": "https://open-meteo.com/en/docs/elevation-api"
+      },
+      {
+        "label": "Klettersteig.de (Seemauer)",
+        "url": "https://klettersteig.de/klettersteig/x/1549"
+      }
+    ],
+    "dataQuality": "Klettersteigposition kartografisch lokalisiert; Gipfel-/Ausstiegspunkt nicht verifiziert Fehlende Einstiegshöhe automatisch per Open-Meteo Elevation API (Copernicus GLO-90) ergänzt. Gipfelposition nur angenähert, nicht verifiziert.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Alpenvereinaktiv meldet die Tour als geschlossen; übliche Wintersperre Ende November bis Anfang Mai.",
+      "validFrom": "2026-11-18",
+      "validTo": "2027-05-01",
+      "source": "https://www.alpenvereinaktiv.com/de/tour/kaiser-franz-joseph-klettersteig-d-/807949140/",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Status laut bereitgestellter offizieller Meldung am 18.11.2026 erfasst; nach Ablauf des Zeitraums wird er als unbekannt behandelt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "koenigsjodler",
+    "active": true,
+    "name": "Königsjodler - Klettersteig",
+    "difficulty": "D",
+    "range": "Berchtesgadener Alpen",
+    "country": "Österreich",
+    "description": "Langer, hochalpiner Gratklettersteig am Hochkönig.",
+    "entry": {
+      "latitude": 47.392621,
+      "longitude": 13.047697,
+      "elevation": 2310,
+      "verified": false,
+      "label": "Einstieg oberhalb der Hohen Scharte; Koordinate laut Nutzerangabe, Höhe ca. 2.310 m nicht unabhängig verifiziert"
+    },
+    "summit": {
+      "latitude": 47.420278,
+      "longitude": 13.053333,
+      "elevation": 2875,
+      "verified": true,
+      "label": "Hoher Kopf, Endpunkt des Königsjodler-Klettersteigs; Koordinate und Höhe laut Gipfelquelle"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Via-Ferrata.de (Zustieg und Einstieg in wenigen Minuten oberhalb der Hohen Scharte)",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/klettersteig-koenigsjodler"
+      },
+      {
+        "label": "Alpenvereinaktiv (Tourenverlauf)",
+        "url": "https://www.alpenvereinaktiv.com/de/tour/koenigsjodler-hochkoenig-salzburg/31803439/"
+      },
+      {
+        "label": "Hoher Kopf (Endpunkt und Gipfelkoordinaten)",
+        "url": "https://de.wikipedia.org/wiki/Hoher_Kopf_(Hochk%C3%B6nig)"
+      }
+    ],
+    "dataQuality": "Einstiegskoordinate laut Nutzerangabe, durch Tourenbeschreibung geografisch plausibel; Einstiegshöhe ca. 2.310 m nicht unabhängig verifiziert. Endpunkt Hoher Kopf GPS/Höhe belegt."
+  },
+  {
+    "id": "der-johann",
+    "active": true,
+    "name": "Der Johann Klettersteig (Südwandklettersteig)",
+    "difficulty": "D/E",
+    "range": "Dachsteingebirge",
+    "country": "Österreich",
+    "description": "Anspruchsvoller Südwandklettersteig am Dachstein.",
+    "entry": {
+      "latitude": 47.4718,
+      "longitude": 13.6091,
+      "elevation": null,
+      "verified": true,
+      "label": "Einstieg laut AlpinVerse; Einstiegshöhe nicht verifiziert"
+    },
+    "summit": {
+      "latitude": 47.473558,
+      "longitude": 13.612758,
+      "elevation": 2740,
+      "verified": true,
+      "label": "Seethalerhütte/Dachsteinwarte, tatsächlicher Ausstieg laut Schladming-Dachstein und Alpenverein"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "AlpinVerse (GPS-Einstieg)",
+        "url": "https://alpinverse.com/de/ferrata/Der_Johann_Klettersteig_%28S%C3%BCdwandklettersteig%29"
+      },
+      {
+        "label": "Klettersteig.de (Zielhöhe, Ausgangspunkt und Routenbeschreibung)",
+        "url": "https://klettersteig.de/klettersteig/johann_klettersteig/355"
+      },
+      {
+        "label": "Schladming-Dachstein (Ausstieg und Höhen)",
+        "url": "https://schladming-dachstein.com/schladming/de/aktivitaeten/touren/Johann-Klettersteig_tour_14810"
+      },
+      {
+        "label": "Alpenverein Seethalerhütte (GPS und Höhe)",
+        "url": "https://www.alpenverein.at/seethalerhuette/?navid=543059543059"
+      }
+    ],
+    "dataQuality": "Einstieg GPS laut AlpinVerse; Einstiegshöhe unbekannt. Ausstieg an der Seethalerhütte/Dachsteinwarte GPS und Höhe belegt."
+  },
+  {
+    "id": "tassilo-schermberg",
+    "active": true,
+    "name": "Schermberg Klettersteig Tassilo",
+    "difficulty": "D",
+    "range": "Totes Gebirge",
+    "country": "Österreich",
+    "description": "Langer Klettersteig von der Welser Hütte über die Ostseite auf den Schermberg.",
+    "entry": {
+      "latitude": null,
+      "longitude": null,
+      "elevation": 1840,
+      "verified": false,
+      "label": "Einstiegshöhe 1.840 m beim Teicheln-Felsblock laut Alpenvereinaktiv; genaue GPS-Koordinate unbekannt. Almtalerhaus-Koordinate nicht als Einstieg übernommen.",
+      "source": "https://www.alpenvereinaktiv.com/de/tour/tassilo-klettersteig-c/24350467/"
+    },
+    "summit": {
+      "latitude": 47.71528,
+      "longitude": 14.03528,
+      "elevation": 2396,
+      "verified": true,
+      "label": "Schermberg-Gipfel laut SummitLynx; Höhe 2.396 m laut Bergsteigen.com"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Bergsteigen.com (Schwierigkeit, Tourenverlauf und Gipfelhöhe)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/schermberg-klettersteig-tassilo/"
+      },
+      {
+        "label": "Alpenvereinaktiv (Tour ab Welser Hütte)",
+        "url": "https://www.alpenvereinaktiv.com/de/tour/tassilo-klettersteig-c/24350467/"
+      },
+      {
+        "label": "Schermberg-Gipfel GPS (SummitLynx)",
+        "url": "https://www.summitlynx.com/en/location/6thyg2b/schermberg/"
+      },
+      {
+        "label": "Outdooractive / Alpenvereinaktiv (Einstieg bei den Teicheln, 1.840 m)",
+        "url": "https://www.outdooractive.com/de/route/klettersteig/totes-gebirge/tassilo-klettersteig-c/24350467/"
+      },
+      {
+        "label": "Alpenverein (Schermberg-Gipfel GPS)",
+        "url": "https://www.alpenvereinaktiv.com/de/punkt/berggipfel/schermberg-2396-m/10015780/"
+      }
+    ],
+    "dataQuality": "Schermberg-Gipfel GPS/Höhe belegt. Einstieg bei den Teicheln auf 1.840 m laut Alpenvereinaktiv; dessen exakte GPS-Koordinate ist nicht veröffentlicht."
+  },
+  {
+    "id": "traunsee",
+    "active": true,
+    "name": "Traunsee Klettersteig",
+    "difficulty": "D",
+    "range": "Oberösterreichische Voralpen",
+    "country": "Österreich",
+    "description": "Kurzer, anspruchsvoller Sportklettersteig am Traunstein; der Einstieg liegt am oberen Hernlersteig, der Ausstieg bei der Gmundner Hütte.",
+    "entry": {
+      "latitude": 47.876124,
+      "longitude": 13.813952,
+      "elevation": 1500,
+      "verified": false,
+      "label": "Einstiegspunkt laut Nutzerangabe; Einstiegshöhe ca. 1.500 m laut Bergsteigen.com"
+    },
+    "summit": {
+      "latitude": 47.87315,
+      "longitude": 13.83375,
+      "elevation": 1666,
+      "verified": true,
+      "label": "Gmundner Hütte, tatsächlicher Ausstieg auf dem Traunstein; GPS und Höhe laut Hüttenbetreiber"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Bergsteigen.com (Einstiegshöhe, Schwierigkeit und Zeiten)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/traunsee-klettersteig/"
+      },
+      {
+        "label": "Alpenvereinaktiv (GPS-Angabe des Klettersteigpunkts)",
+        "url": "https://www.alpenvereinaktiv.com/de/tour/traunstein-ueber-traunseeklettersteig/7978423/"
+      },
+      {
+        "label": "Oberösterreich Tourismus (Route und Einstieg am Hernlersteig)",
+        "url": "https://www.oberoesterreich.at/oesterreich-tour/detail/430001483/traunsee-klettersteig.html"
+      },
+      {
+        "label": "Gmundner Hütte (GPS und Höhe)",
+        "url": "https://www.gmundnerhuette.at/lage/"
+      }
+    ],
+    "dataQuality": "Einstiegskoordinate laut Nutzerangabe; Einstiegshöhe ca. 1.500 m laut Bergsteigen.com. Ausstieg an der Gmundner Hütte GPS und Höhe laut Hüttenbetreiber belegt."
+  },
+  {
+    "id": "lindwurm",
+    "active": true,
+    "name": "Lindwurm",
+    "difficulty": "D/E",
+    "range": "Totes Gebirge",
+    "country": "Österreich",
+    "description": "Kurzer, sehr schwieriger Klettersteig an der Zwerchwand bei Bad Goisern im Salzkammergut.",
+    "entry": {
+      "latitude": 47.6648,
+      "longitude": 13.6671,
+      "elevation": 1274,
+      "verified": true,
+      "label": "Einstiegskoordinate laut Ferrata Guide; Höhe automatisch per Open-Meteo Elevation API ergänzt",
+      "elevationSource": "Open-Meteo Elevation API · Copernicus DEM GLO-90 (90 m)",
+      "source": "https://ferrata.guide/de/ferrata/Lindwurm"
+    },
+    "summit": {
+      "latitude": 47.66438,
+      "longitude": 13.672074,
+      "elevation": 1330,
+      "verified": true,
+      "label": "Zwerchwand (1.330 m), Gipfelkoordinate laut Outdooractive / Alpenvereinaktiv",
+      "source": "https://www.outdooractive.com/de/poi/region-bad-ischl/zwerchwand-1.330m-sommer-/41113964/"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Ferrata Guide Lindwurm (GPS-Punkt und Tourenverlauf)",
+        "url": "https://ferrataguide.com/ferrata/Lindwurm"
+      },
+      {
+        "label": "Bergsteigen.com (Schwierigkeit, Zeiten und Tourenbeschreibung)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/lindwurm-klettersteig-zwerchwand/"
+      },
+      {
+        "label": "Salzkammergut Tourismus (Routenbeschreibung)",
+        "url": "https://www.salzkammergut.at/oesterreich-tour/detail/430009285/lindwurm-zwerchwand.html"
+      },
+      {
+        "label": "Open-Meteo Elevation API / Copernicus GLO-90",
+        "url": "https://open-meteo.com/en/docs/elevation-api"
+      },
+      {
+        "label": "Outdooractive / Alpenvereinaktiv (Zwerchwand, 1.330 m)",
+        "url": "https://www.outdooractive.com/de/poi/region-bad-ischl/zwerchwand-1.330m-sommer-/41113964/"
+      }
+    ],
+    "dataQuality": "Einstieg laut Ferrata Guide; Gipfelpunkt Zwerchwand (1.330 m) laut Outdooractive / Alpenvereinaktiv."
+  },
+  {
+    "id": "suedostsporn",
+    "active": true,
+    "name": "Südostsporn - Klettersteig",
+    "difficulty": "D",
+    "range": "Totes Gebirge",
+    "country": "Österreich",
+    "description": "Der frühere Südostsporn-Klettersteig ist in dieser Form nicht mehr eigenständig begehbar; er bildet den unteren Bereich des heutigen Priel-Klettersteigs, der mit dem Bert-Rinesch-Klettersteig zum Großen Priel weiterführt.",
+    "entry": {
+      "latitude": 47.704816,
+      "longitude": 14.081654,
+      "elevation": 1700,
+      "verified": false,
+      "label": "Einstieg am Wandfuß laut Nutzerangabe; Höhe ca. 1.700 m, nicht unabhängig verifiziert"
+    },
+    "summit": {
+      "latitude": 47.71694,
+      "longitude": 14.06325,
+      "elevation": 2515,
+      "verified": false,
+      "label": "Großer Priel; Gipfelkoordinate aus Kartenquelle, Zielhöhe laut Klettersteig.de"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Klettersteig.de Südsporn (Ziel und Zielhöhe)",
+        "url": "https://klettersteig.de/klettersteig/suedsporn_klettersteig/1861"
+      },
+      {
+        "label": "Bergsteigen.com (historischer Südostsporn, ersetzt durch den Priel-Klettersteig)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/suedostsporn-klettersteig/"
+      },
+      {
+        "label": "Bergsteigen.com Priel-Klettersteig (aktueller Routenverlauf)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/priel-klettersteig/"
+      },
+      {
+        "label": "Alpenvereinaktiv (GPS-Einstieg und aktueller Priel-Klettersteig)",
+        "url": "https://www.alpenvereinaktiv.com/de/tour/grosser-priel-klettersteig-neu-am-15.-juni-2019-prielklettersteig/121359072/"
+      },
+      {
+        "label": "OpenStreetMap Großer Priel",
+        "url": "https://www.openstreetmap.org/?mlat=47.71694&mlon=14.06325#map=16/47.71694/14.06325"
+      }
+    ],
+    "dataQuality": "Einstiegskoordinate und ca. Höhe laut Nutzerangabe; Einstieg liegt am heutigen Priel-Klettersteig. Alter Südostsporn ist laut Bergsteigen.com in dieser Form ersetzt. Großer-Priel-Gipfelpunkt GPS/Höhe belegt."
+  },
+  {
+    "id": "hochkogel",
+    "active": true,
+    "name": "Hochkogel Klettersteig",
+    "difficulty": "C/D",
+    "range": "Totes Gebirge",
+    "country": "Österreich",
+    "description": "Klettersteig über Kleinen und Großen Rauherkogel beim Ebenseer Hochkogelhaus in der Schönberggruppe.",
+    "entry": {
+      "latitude": 47.7246,
+      "longitude": 13.7872,
+      "elevation": 1625,
+      "verified": false,
+      "label": "Einstiegsbereich laut Ferrata Guide/Via Peaks; Einstiegshöhe 1.625 m laut Alpintouren"
+    },
+    "summit": {
+      "latitude": 47.72883,
+      "longitude": 13.79095,
+      "elevation": 1591,
+      "verified": false,
+      "label": "Hochkogel (1.591 m) laut Vrcholovka; Routenziel-Zuordnung wegen benachbartem Großen Rauherkogel (1.798 m) nicht bestätigt",
+      "source": "https://www.vrcholovka.cz/vrchol/33527-hochkogel/",
+      "additionalSource": "https://peakvisor.com/peak/hochkogel.html",
+      "verificationNote": "Koordinaten und 1.591 m bezeichnen den benannten Hochkogel. Die Tourenbeschreibung nennt auch Kleinen und Großen Rauherkogel (1.798 m); Zuordnung zum tatsächlichen Klettersteig-Ausstieg bleibt ungeklärt."
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Naturfreunde Ebensee (Route über beide Rauherkogel)",
+        "url": "https://ebensee.naturfreunde.at/service/projekte/klettersteig-hochkogel/"
+      },
+      {
+        "label": "Alpintouren (Gipfelziele)",
+        "url": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_27385.html"
+      },
+      {
+        "label": "Bergsteigen.com (Schwierigkeit, Gipfel und Zeiten)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/hochkogel-klettersteig/"
+      },
+      {
+        "label": "Ferrata Guide (GPS-Klettersteigpunkt und Parkplatz)",
+        "url": "https://ferrata.guide/de/ferrata/Hochkogel_Klettersteig"
+      },
+      {
+        "label": "Naturfreunde Ebensee (Erhalter und Zustieg ab Hochkogelhaus)",
+        "url": "https://ebensee.naturfreunde.at/service/projekte/klettersteig-hochkogel/"
+      },
+      {
+        "label": "Vrcholovka.cz (Hochkogel GPS, 1.591 m)",
+        "url": "https://www.vrcholovka.cz/vrchol/33527-hochkogel/"
+      }
+    ],
+    "dataQuality": "GPS/Höhe des benannten Hochkogels laut Vrcholovka ergänzt. Ob dieser Gipfel oder der in der Tourenbeschreibung genannte Große Rauherkogel (1.798 m) den Klettersteig-Ausstieg bezeichnet, ist noch zu verifizieren."
+  },
+  {
+    "id": "loser-sisi",
+    "active": true,
+    "name": "Loser - Klettersteig (Panorama Klettersteig Sisi)",
+    "difficulty": "D",
+    "range": "Totes Gebirge",
+    "country": "Österreich",
+    "description": "Panorama-Klettersteig am Loser.",
+    "entry": {
+      "latitude": 47.658959,
+      "longitude": 13.772244,
+      "elevation": 1645,
+      "verified": false,
+      "label": "GPS des Klettersteig-Einstiegs laut Via Ferrata; automatisch ermittelte Höhe aus Open-Meteo/Copernicus GLO-90",
+      "elevationSource": "Open-Meteo Elevation API · Copernicus DEM GLO-90 (90 m)"
+    },
+    "summit": {
+      "latitude": 47.66255,
+      "longitude": 13.77107,
+      "elevation": 1838,
+      "verified": false,
+      "label": "Loser-Gipfel; Peakbagger-Koordinate, Höhe laut Loser Bergbahnen"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "Via Ferrata (Klettersteig-Einstieg)",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/loser-klettersteig-sisi"
+      },
+      {
+        "label": "Loser Bergbahnen (offizielle Tourenbeschreibung)",
+        "url": "https://loserfenster.at/de/loser-altaussee/sommer/aktivitaeten/klettersteige/"
+      },
+      {
+        "label": "Peakbagger Loser (Gipfelkoordinate)",
+        "url": "https://www.peakbagger.com/peak.aspx?pid=47770"
+      },
+      {
+        "label": "Open-Meteo Elevation API / Copernicus GLO-90",
+        "url": "https://open-meteo.com/en/docs/elevation-api"
+      }
+    ],
+    "dataQuality": "Einstiegspunkt aus Tourenbeschreibung; Gipfelpunkt und Höhe kartografisch belegt Fehlende Einstiegshöhe automatisch per Open-Meteo Elevation API (Copernicus GLO-90) ergänzt.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Offiziell geschlossen; Saison laut Tourismusportal etwa Mitte Mai bis Mitte November.",
+      "validFrom": "2026-11-18",
+      "validTo": "2027-05-14",
+      "source": "https://www.steiermark.com/de/Ausseerland-Salzkammergut/Urlaub-planen/Touren/Loser-Panorama-Klettersteig-SISI_tour_324953",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Status laut bereitgestellter offizieller Meldung am 18.11.2026 erfasst; nach Ablauf des Zeitraums wird er als unbekannt behandelt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "grandlspitz",
+    "active": true,
+    "name": "Grandlspitz Klettersteig",
+    "difficulty": "C/D",
+    "range": "Berchtesgadener Alpen",
+    "country": "Österreich",
+    "description": "Klettersteig an der Grandlspitze bei Werfenweng.",
+    "entry": {
+      "latitude": 47.40938,
+      "longitude": 13.055457,
+      "elevation": 2160,
+      "verified": true,
+      "label": "Einstieg GPS und Höhe laut Via-Ferrata/Alpintouren",
+      "source": "https://www.via-ferrata.de/klettersteige/topo/klettersteig-grandlspitz",
+      "additionalSource": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_21440.html"
+    },
+    "summit": {
+      "latitude": 47.410176,
+      "longitude": 13.054935,
+      "elevation": 2307,
+      "verified": false,
+      "label": "Grandlspitz-Gipfelkoordinate laut Outdooractive; Gipfelhöhe 2.307 m laut Bergsteigen.com (Outdooractive-Punkt mit 2.302 m ausgewiesen)"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Bergsteigen.com (Schwierigkeit, Gipfel und Tourenverlauf)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/grandlspitz-klettersteig/"
+      },
+      {
+        "label": "Outdooractive (verifizierte Grandlspitz-Gipfelkoordinate)",
+        "url": "https://www.outdooractive.com/de/poi/hochkoenig/grandlspitz-2307-m-/6186893/"
+      },
+      {
+        "label": "Via-Ferrata.de (Parkplatz-Referenz und Beschreibung)",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/klettersteig-grandlspitz"
+      },
+      {
+        "label": "Hochkönig Tourismus (Tourenbeschreibung)",
+        "url": "https://www.hochkoenig.at/de/touren/klettersteig-grandlspitz.html"
+      },
+      {
+        "label": "Alpintouren.com (Einstieg GPS/Höhe)",
+        "url": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_21440.html"
+      }
+    ],
+    "dataQuality": "Einstieg GPS/Höhe laut Via-Ferrata und Alpintouren; Gipfelkoordinate laut Outdooractive, Gipfelhöhe laut Bergsteigen.com."
+  },
+  {
+    "id": "anna",
+    "active": true,
+    "name": "Anna - Klettersteig",
+    "difficulty": "D",
+    "range": "Dachsteingebirge",
+    "country": "Österreich",
+    "description": "Klettersteig am Dachsteinmassiv.",
+    "entry": {
+      "latitude": 47.466744,
+      "longitude": 13.609082,
+      "elevation": 1800,
+      "verified": false,
+      "label": "Klettersteig-Einstieg GPS laut Via Ferrata; Einstiegshöhe ca. 1.800 m"
+    },
+    "summit": {
+      "latitude": 47.4688,
+      "longitude": 13.6108,
+      "elevation": 2097,
+      "verified": false,
+      "label": "Mitterstein-Gipfel/Ausstieg; Koordinate und Höhe laut Gipfelbuch"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Via Ferrata (GPS des Klettersteig-Einstiegs)",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/klettersteig-anna"
+      },
+      {
+        "label": "Gipfelbuch Mitterstein",
+        "url": "https://www.gipfelbuch.ch/punkte/15223-mitterstein-2097m"
+      }
+    ],
+    "dataQuality": "Einstieg und Mitterstein-Gipfel aus Touren-/Gipfelquellen lokalisiert; Einstiegshöhe ca.-Angabe."
+  },
+  {
+    "id": "donnerkogel",
+    "active": true,
+    "name": "Intersport Klettersteig Donnerkogel - Himmelsleiter",
+    "difficulty": "C/D",
+    "range": "Dachsteingebirge",
+    "country": "Österreich",
+    "description": "Anspruchsvoller Gratklettersteig auf den Großen Donnerkogel mit der ausgesetzten Himmelsleiter.",
+    "entry": {
+      "latitude": 47.5302,
+      "longitude": 13.4768,
+      "elevation": 1592,
+      "verified": true,
+      "label": "Klettersteig-Einstieg"
+    },
+    "summit": {
+      "latitude": 47.524197,
+      "longitude": 13.481381,
+      "elevation": 2054,
+      "verified": true,
+      "label": "Großer Donnerkogel"
+    },
+    "approachMinutes": 25,
+    "climbMinutes": 210,
+    "descentMinutes": 135,
+    "durationMinutes": 370,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "AlpinVerse",
+        "url": "https://alpinverse.com/de/ferrata/Intersport_Klettersteig"
+      },
+      {
+        "label": "Bergsteigen.com",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/intersport-klettersteig-donnerkogel/"
+      },
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/klettersteig/donnerkogel_klettersteig_intersport_klettersteig_/345"
+      }
+    ],
+    "dataQuality": "Einstieg aus Ferrata Guide; Gipfelkoordinate aus Alpenverein-Partnerbeschreibung.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Vom Betreiber wegen Wintersaison und Wetterlage geschlossen.",
+      "validFrom": "2026-11-18",
+      "validTo": "2027-04-30",
+      "source": "https://www.dachstein.at/de/sommer/klettersteig-donnerkogel",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Status laut bereitgestellter offizieller Meldung am 18.11.2026 erfasst; nach Ablauf des Zeitraums wird er als unbekannt behandelt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "pfeilspitzwand",
+    "active": true,
+    "name": "Pfeilspitzwand - Klettersteig",
+    "difficulty": "C/D",
+    "range": "Tuxer Alpen",
+    "country": "Österreich",
+    "description": "Klettersteig an der Pfeilspitzwand im Zillertal.",
+    "entry": {
+      "latitude": 47.17473,
+      "longitude": 11.86107,
+      "elevation": 676,
+      "verified": false,
+      "label": "Klettersteigposition laut Ferrata Guide; Einstiegshöhe unbekannt (Quelle nennt Bereich 600–850 m); automatisch ermittelte Höhe aus Open-Meteo/Copernicus GLO-90",
+      "elevationSource": "Open-Meteo Elevation API · Copernicus DEM GLO-90 (90 m)"
+    },
+    "summit": {
+      "latitude": 47.175837,
+      "longitude": 11.86033,
+      "elevation": 850,
+      "verified": false,
+      "label": "Ausstieg GPS laut Klettersteig.de; Höhe ca. 850 m laut Climbers Paradise"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Ferrata Guide (Klettersteigposition)",
+        "url": "https://www.ferrata.guide/de/ferrata/Pfeilspitzwand_-_Klettersteig"
+      },
+      {
+        "label": "Klettersteig.de (GPS Anstieg/Ausstieg)",
+        "url": "https://klettersteig.de/klettersteig/pfeilspitzklettersteig/1788"
+      },
+      {
+        "label": "Climbers Paradise Tirol (Höhenbereich und Route)",
+        "url": "https://www.climbers-paradise.com/kletterregionen/mayrhofen-hippach/klettersteige/location/klettersteig-pfeilspitzwand/"
+      },
+      {
+        "label": "Open-Meteo Elevation API / Copernicus GLO-90",
+        "url": "https://open-meteo.com/en/docs/elevation-api"
+      }
+    ],
+    "dataQuality": "Route anhand GPS-Datenpunkt und Ausstiegsposition recherchiert; Einstiegshöhe nur ungefähr aus Höhenbereich abgeleitet Fehlende Einstiegshöhe automatisch per Open-Meteo Elevation API (Copernicus GLO-90) ergänzt."
+  },
+  {
+    "id": "poppenberg",
+    "active": true,
+    "name": "Klettersteig Poppenberg",
+    "difficulty": "C/D",
+    "range": "Totes Gebirge",
+    "country": "Österreich",
+    "description": "Klettersteig am Poppenberg; genaue Route noch zu verifizieren.",
+    "entry": {
+      "latitude": 47.709586,
+      "longitude": 14.166123,
+      "elevation": 660,
+      "verified": true,
+      "label": "Klettersteig-Einstieg GPS und Höhe laut Klettersteig.de (Anstieg GPS, 660 m)"
+    },
+    "summit": {
+      "latitude": 47.708753,
+      "longitude": 14.16478,
+      "elevation": 860,
+      "verified": true,
+      "label": "Poppenberg-Höchstpunkt laut Alpenvereinaktiv",
+      "source": "https://www.alpenvereinaktiv.com/de/tour/poppenberg-klettersteig/173919843/"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "Klettersteig.de (GPS Einstieg, Höhe und Tourenverlauf)",
+        "url": "https://klettersteig.de/klettersteig/ploppenberg_klettersteig/2086"
+      },
+      {
+        "label": "Alpenvereinaktiv (Poppenberg-Gipfelpunkt)",
+        "url": "https://www.alpenvereinaktiv.com/de/tour/poppenberg-klettersteig/173919843/"
+      }
+    ],
+    "dataQuality": "Einstieg GPS/Höhe laut Klettersteig.de; Gipfelkoordinate und Höhe laut Alpenvereinaktiv."
+  },
+  {
+    "id": "raeuberleiter",
+    "active": true,
+    "name": "Räuberleiter",
+    "difficulty": "D/E",
+    "range": "Berchtesgadener Alpen",
+    "country": "Deutschland",
+    "description": "Sehr schwierige Einstiegsvariante des Grünstein-Klettersteigs am Königssee; sie mündet in die Hotelroute und anschließend in die Hauptroute.",
+    "entry": {
+      "latitude": 47.5914,
+      "longitude": 12.9722,
+      "elevation": null,
+      "verified": false,
+      "label": "Einstiegsbereich laut Nutzerangabe; Variantenpunkt in der Grünstein-Südwand, Höhe unbekannt"
+    },
+    "summit": {
+      "latitude": 47.594309,
+      "longitude": 12.965505,
+      "elevation": 1304,
+      "verified": true,
+      "label": "Grünstein-Gipfel; Kartenkoordinate und Höhe aus GeoFinder"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 4.5,
+    "links": [
+      {
+        "label": "GeoFinder Grünstein-Gipfel",
+        "url": "https://geofinder.ch/11322"
+      },
+      {
+        "label": "Klettersteig.de Grünstein (Varianten und Ziel)",
+        "url": "https://klettersteig.de/klettersteig/x/1742"
+      },
+      {
+        "label": "Via-Ferrata.de (Räuberleiter als Grünstein-Variante)",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/klettersteig-gruenstein"
+      },
+      {
+        "label": "Alpenvereinaktiv (Grünstein-Zustieg und Route)",
+        "url": "https://www.alpenvereinaktiv.com/de/tour/gruensteinkletterst-koenigsee/112642249/"
+      },
+      {
+        "label": "Ferrata Guide Räuberleiter",
+        "url": "https://ferrata.guide/de/ferrata/R%C3%A4uberleiter"
+      }
+    ],
+    "dataQuality": "Einstiegskoordinate laut Nutzerangabe; Varianten-Einstiegsbereich nicht unabhängig vermessen. Grünstein-Gipfel GPS und Höhe kartografisch belegt.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Klingerweg-Sperre wegen Sanierungsarbeiten; Zustieg und Klettersteig aktuell geschlossen.",
+      "validFrom": "2026-11-04",
+      "validTo": "2027-03-31",
+      "source": "https://www.berchtesgaden.de/touren/gruenstein-klettersteig",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Offizielle Meldung: gesamter Klingerweg gesperrt und Grünstein-Klettersteig ab 04.11.2026 geschlossen. Räuberleiter laut Quelle derzeit nicht begehbar. Status läuft nach dem angegebenen Zeitraum automatisch auf unbekannt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "servus-stef",
+    "active": true,
+    "name": "Servus Stef",
+    "difficulty": "D/E",
+    "range": "Berchtesgadener Alpen",
+    "country": "Deutschland",
+    "description": "Schwere Variante des Grünstein-Klettersteigs (ehemals Hotelroute); Einstieg unmittelbar neben dem Isidorsteig, späterer Übergang zur Hauptroute.",
+    "entry": {
+      "latitude": 47.5936,
+      "longitude": 12.9664,
+      "elevation": null,
+      "verified": false,
+      "label": "Einstiegskoordinate vom Nutzer angegeben; nicht unabhängig verifiziert.",
+      "verificationNote": "Koordinatenangabe übernommen; unabhängige Quellen- oder Kartenprüfung steht aus."
+    },
+    "summit": {
+      "latitude": 47.594309,
+      "longitude": 12.965505,
+      "elevation": 1304,
+      "verified": true,
+      "label": "Grünstein-Gipfel; Kartenkoordinate und Höhe aus GeoFinder"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "GeoFinder Grünstein-Gipfel",
+        "url": "https://geofinder.ch/11322"
+      },
+      {
+        "label": "Klettersteig.de Grünstein (Varianten und Ziel)",
+        "url": "https://klettersteig.de/klettersteig/x/1742"
+      },
+      {
+        "label": "Bergsteigen.com (Grünstein-Varianten und Zustieg)",
+        "url": "https://www.bergsteigen.com/touren/klettersteig/gruenstein-klettersteig-mit-var-isidor/"
+      },
+      {
+        "label": "Via-Ferrata.de (Grünstein-Varianten)",
+        "url": "https://www.via-ferrata.de/klettersteige/topo/klettersteig-gruenstein"
+      },
+      {
+        "label": "Ferrata Guide Servus Stef",
+        "url": "https://ferrata.guide/de/ferrata/Servus_Stef"
+      }
+    ],
+    "dataQuality": "Einstiegspunkt vom Nutzer angegeben (47.5936, 12.9664), noch nicht unabhängig verifiziert. Grünstein-Gipfel GPS und Höhe kartografisch belegt.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Klingerweg-Sperre wegen Sanierungsarbeiten; Zustieg und Klettersteig aktuell geschlossen.",
+      "validFrom": "2026-11-04",
+      "validTo": "2027-03-31",
+      "source": "https://www.berchtesgaden.de/touren/gruenstein-klettersteig",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Offizielle Meldung: gesamter Klingerweg gesperrt und Grünstein-Klettersteig ab 04.11.2026 geschlossen. Räuberleiter laut Quelle derzeit nicht begehbar. Status läuft nach dem angegebenen Zeitraum automatisch auf unbekannt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "gipfelwand",
+    "active": true,
+    "name": "Gipfelwand",
+    "difficulty": "D/E",
+    "range": "Berchtesgadener Alpen",
+    "country": "Deutschland",
+    "description": "Klettersteig in den Berchtesgadener Alpen; genaue Route noch zu verifizieren.",
+    "entry": {
+      "latitude": 47.5936,
+      "longitude": 12.9664,
+      "elevation": null,
+      "verified": false,
+      "label": "Einstiegskoordinate vom Nutzer angegeben; nicht unabhängig verifiziert.",
+      "verificationNote": "Koordinatenangabe übernommen; unabhängige Quellen- oder Kartenprüfung steht aus."
+    },
+    "summit": {
+      "latitude": 47.594309,
+      "longitude": 12.965505,
+      "elevation": 1304,
+      "verified": true,
+      "label": "Grünstein-Gipfel; Kartenkoordinate und Höhe aus GeoFinder"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "rating": 5,
+    "links": [
+      {
+        "label": "GeoFinder Grünstein-Gipfel",
+        "url": "https://geofinder.ch/11322"
+      },
+      {
+        "label": "Klettersteig.de Grünstein (Varianten und Ziel)",
+        "url": "https://klettersteig.de/klettersteig/x/1742"
+      }
+    ],
+    "dataQuality": "Einstiegspunkt vom Nutzer angegeben (47.5936, 12.9664), noch nicht unabhängig verifiziert. Grünstein-Gipfel GPS und Höhe kartografisch belegt.",
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Klingerweg-Sperre wegen Sanierungsarbeiten; Zustieg und Klettersteig aktuell geschlossen.",
+      "validFrom": "2026-11-04",
+      "validTo": "2027-03-31",
+      "source": "https://www.berchtesgaden.de/touren/gruenstein-klettersteig",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Offizielle Meldung: gesamter Klingerweg gesperrt und Grünstein-Klettersteig ab 04.11.2026 geschlossen. Räuberleiter laut Quelle derzeit nicht begehbar. Status läuft nach dem angegebenen Zeitraum automatisch auf unbekannt.",
+      "automatic": null
+    }
+  },
+  {
+    "id": "mammut-klettersteig-beisteinmauer",
+    "active": true,
+    "name": "Mammut Klettersteig - Beisteinmauer",
+    "difficulty": "E",
+    "range": "Oberösterreichische Voralpen",
+    "country": "Österreich",
+    "description": "Anspruchsvolle E-Route im Klettersteigpark Beisteinmauer.",
+    "entry": {
+      "latitude": 47.9211,
+      "longitude": 14.347,
+      "elevation": 470,
+      "verified": true,
+      "source": "https://ferrata.guide/de/ferrata/Mammut_Klettersteig_-_Beisteinmauer",
+      "label": "Mammut-Klettersteig-Position laut Ferrata Guide"
+    },
+    "summit": {
+      "latitude": 47.921417,
+      "longitude": 14.347537,
+      "elevation": 632,
+      "verified": true,
+      "source": "https://www.outdooractive.com/de/poi/oberoesterreichische-voralpen/beisteinmauer-632m/31731640/",
+      "label": "Beisteinmauer-Gipfelpunkt laut Alpenverein Linz / Outdooractive"
+    },
+    "approachMinutes": 5,
+    "climbMinutes": 40,
+    "descentMinutes": 15,
+    "durationMinutes": 60,
+    "rating": null,
+    "links": [
+      {
+        "label": "ViaPeaks (Mammut Klettersteig)",
+        "url": "https://viapeaks.com/via/mammut-klettersteig-beisteinmauer-beisteinmauer"
+      },
+      {
+        "label": "Ferrata Guide (Mammut Klettersteig)",
+        "url": "https://ferrata.guide/de/ferrata/Mammut_Klettersteig_-_Beisteinmauer"
+      },
+      {
+        "label": "Alpintouren (Beisteinmauer, 632 m; Routenpark)",
+        "url": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_28120.html"
+      },
+      {
+        "label": "Outdooractive (Gipfel Beisteinmauer, 632 m)",
+        "url": "https://www.outdooractive.com/de/poi/oberoesterreichische-voralpen/beisteinmauer-632m/31731640/"
+      }
+    ],
+    "closure": {
+      "status": "Unbekannt",
+      "manual": false,
+      "reason": "",
+      "validFrom": "",
+      "validTo": "",
+      "source": "",
+      "sourceType": "Nicht verifiziert",
+      "checkedAt": "",
+      "note": "Status nicht aktuell unabhängig geprüft.",
+      "automatic": null
+    },
+    "dataQuality": "Einstiegsposition laut Ferrata Guide; Gipfelkoordinate und Höhe der Beisteinmauer laut Alpenverein Linz / Outdooractive."
+  },
+  {
+    "id": "grossalber-klettersteig-beisteinmauer",
+    "active": true,
+    "name": "Großalber Klettersteig - Beisteinmauer",
+    "difficulty": "D/E",
+    "range": "Oberösterreichische Voralpen",
+    "country": "Österreich",
+    "description": "Schwere Variante im Klettersteigpark Beisteinmauer mit Seilbrücke und Leiter.",
+    "entry": {
+      "latitude": 47.9211,
+      "longitude": 14.347,
+      "elevation": 500,
+      "verified": true,
+      "source": "https://ferrata.guide/de/ferrata/Gro%C3%9Falber_Klettersteig_-_Beisteinmauer",
+      "label": "Großalber-Klettersteig-Position laut Ferrata Guide"
+    },
+    "summit": {
+      "latitude": 47.921417,
+      "longitude": 14.347537,
+      "elevation": 632,
+      "verified": true,
+      "source": "https://www.outdooractive.com/de/poi/oberoesterreichische-voralpen/beisteinmauer-632m/31731640/",
+      "label": "Beisteinmauer-Gipfelpunkt laut Alpenverein Linz / Outdooractive"
+    },
+    "approachMinutes": 5,
+    "climbMinutes": 60,
+    "descentMinutes": 15,
+    "durationMinutes": 80,
+    "rating": null,
+    "links": [
+      {
+        "label": "Ferrata Guide",
+        "url": "https://ferrata.guide/de/ferrata/Gro%C3%9Falber_Klettersteig_-_Beisteinmauer"
+      },
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/klettersteig/grossalber_klettersteig_beisteinmauer_/2003"
+      },
+      {
+        "label": "Alpintouren (Beisteinmauer, 632 m; Routenpark)",
+        "url": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_28120.html"
+      },
+      {
+        "label": "Outdooractive (Gipfel Beisteinmauer, 632 m)",
+        "url": "https://www.outdooractive.com/de/poi/oberoesterreichische-voralpen/beisteinmauer-632m/31731640/"
+      }
+    ],
+    "closure": {
+      "status": "Unbekannt",
+      "manual": false,
+      "reason": "",
+      "validFrom": "",
+      "validTo": "",
+      "source": "",
+      "sourceType": "Nicht verifiziert",
+      "checkedAt": "",
+      "note": "Status nicht aktuell unabhängig geprüft.",
+      "automatic": null
+    },
+    "dataQuality": "Routenposition laut Ferrata Guide; Gipfelkoordinate und Höhe der Beisteinmauer laut Alpenverein Linz / Outdooractive."
+  },
+  {
+    "id": "postalmklamm-klettersteig",
+    "active": true,
+    "name": "Postalmklamm Klettersteig",
+    "difficulty": "D",
+    "range": "Osterhorngruppe",
+    "country": "Österreich",
+    "description": "Langer Klettersteig durch die Postalmklamm mit abschließender Gamsleckenwand; der Parkplatzpunkt ist nicht der Einstieg.",
+    "entry": {
+      "latitude": 47.6598,
+      "longitude": 13.4578,
+      "elevation": 813,
+      "verified": false,
+      "source": "https://viapeaks.com/via/postalmklamm-strobl",
+      "label": "Allgemeine Klettersteig-GPS-Position laut ViaPeaks; Einstieg an der Seufzerbrücke nicht exakt bestätigt",
+      "verificationNote": "Die Nutzerkoordinate 47.662436, 13.459291 liegt am Parkplatz. Die Route startet nach kurzem Zustieg an der Seufzerbrücke; dieser GPS-Punkt ist nicht separat veröffentlicht."
+    },
+    "summit": {
+      "latitude": 47.6689,
+      "longitude": 13.4625,
+      "elevation": 1040,
+      "verified": false,
+      "source": "https://klettersteig.de/klettersteig/x/1454",
+      "label": "Ausstiegs-Kandidat laut Nutzerangabe, Koordinate und Höhe noch gegen Routenverlauf zu prüfen",
+      "verificationNote": "Nutzerangabe nennt 47.6689, 13.4625 und 1.040 m. Andere gespeicherte Quelle nennt einen Höhenbereich bis 1.189 m; deshalb nicht als verifiziert markiert."
+    },
+    "approachMinutes": 10,
+    "climbMinutes": 135,
+    "descentMinutes": 60,
+    "durationMinutes": 205,
+    "rating": null,
+    "links": [
+      {
+        "label": "Klettersteig.de",
+        "url": "https://klettersteig.de/klettersteig/x/1454"
+      },
+      {
+        "label": "Alpintouren",
+        "url": "https://www.alpintouren.com/de/touren/ski/tourbeschreibung/tourdaten_23585.html"
+      },
+      {
+        "label": "GPS-Tour.info",
+        "url": "https://www.gps-tour.info/de/touren/detail.174704.html"
+      },
+      {
+        "label": "ViaPeaks (Route und Parkplatzposition)",
+        "url": "https://viapeaks.com/via/postalmklamm-strobl"
+      },
+      {
+        "label": "Salzkammergut Klettersteigführer",
+        "url": "https://www.salzkammergut.at/fileadmin/user_upload/salzkammergut/0_Prospekte_PDFs/Klettersteigf%C3%BChrer_2024.pdf"
+      }
+    ],
+    "closure": {
+      "status": "Unbekannt",
+      "manual": false,
+      "reason": "",
+      "validFrom": "",
+      "validTo": "",
+      "source": "",
+      "sourceType": "Nicht verifiziert",
+      "checkedAt": "",
+      "note": "Status nicht aktuell unabhängig geprüft.",
+      "automatic": null
+    },
+    "dataQuality": "Einstiegsposition ist nur ein allgemeiner Routenpunkt. Ausstiegs-GPS ist als unbestätigter Kandidat hinterlegt; die Höhe 1.040 m widerspricht dem ViaPeaks-Höhenbereich bis 1.189 m und muss geprüft werden."
+  },
+  {
+    "id": "city-wall-klettersteig",
+    "active": true,
+    "name": "City Wall Klettersteig",
+    "difficulty": "E",
+    "range": "Salzkammergutberge (Salzburg)",
+    "country": "Österreich",
+    "description": "Klettersteigpark am Kapuzinerberg mit mehreren Varianten von B bis E. E bezeichnet die schwerste ursprüngliche Kapuziner-Gams-Variante; nicht alle Routen haben Schwierigkeit E.",
+    "entry": {
+      "latitude": 47.804131,
+      "longitude": 13.049996,
+      "elevation": 430,
+      "verified": true,
+      "source": "https://klettersteig.de/klettersteig/sportklettersteigacitywall/215",
+      "label": "Anstiegspunkt laut Klettersteig.de"
+    },
+    "summit": {
+      "latitude": 47.8049,
+      "longitude": 13.0506,
+      "elevation": 636,
+      "verified": false,
+      "source": "https://www.alpintouren.com/de/touren/wandern/tourbeschreibung/tourdaten_28805.html",
+      "label": "Ausstiegs-Kandidat laut Nutzerangabe und Alpintouren; nicht unabhängig als Routenende verifiziert"
+    },
+    "approachMinutes": 2,
+    "climbMinutes": 25,
+    "descentMinutes": 10,
+    "durationMinutes": 37,
+    "rating": null,
+    "links": [
+      {
+        "label": "Alpintouren (City Wall / Kapuzinerberg)",
+        "url": "https://www.alpintouren.com/de/touren/wandern/tourbeschreibung/tourdaten_28805.html"
+      },
+      {
+        "label": "Alpintouren (Variante)",
+        "url": "https://www.alpintouren.com/de/touren/wandern/tourbeschreibung/tourdaten_26065.html"
+      },
+      {
+        "label": "Klettersteig.de (Citywall-Varianten B bis E)",
+        "url": "https://klettersteig.de/klettersteig/sportklettersteigacitywall/215"
+      },
+      {
+        "label": "ViaPeaks (Sperrzeit und Routenvarianten)",
+        "url": "https://viapeaks.com/via/city-wall-klettersteig-salzburg"
+      }
+    ],
+    "closure": {
+      "status": "Offen",
+      "manual": false,
+      "reason": "Außerhalb der angegebenen Brutzeit-Sperre; Schlechtwetter kann den Zugang einschränken.",
+      "validFrom": "2026-07-01",
+      "validTo": "2027-02-28",
+      "source": "https://viapeaks.com/via/city-wall-klettersteig-salzburg",
+      "sourceType": "Nicht offizielle Quelle",
+      "checkedAt": "2026-11-18",
+      "note": "ViaPeaks nennt 1. März bis 30. Juni als Brutzeit-Sperre; Status gilt nur für den angegebenen Zeitraum.",
+      "automatic": null
+    },
+    "dataQuality": "Einstiegspunkt laut Klettersteig.de. Gipfel/Ausstiegs-GPS und Höhe 636 m sind als unbestätigter Kandidat hinterlegt; genaue Zuordnung zum Routenende prüfen."
+  },
+  {
+    "id": "wilde-gams",
+    "active": true,
+    "name": "Wilde Gams",
+    "difficulty": "E/F",
+    "range": "Berchtesgadener Alpen",
+    "country": "Österreich",
+    "description": "Sehr anspruchsvoller Klettersteig an der Hochkranzflanke bei Weißbach; Einstieg wenige Minuten vom Gasthof Frohnwies entfernt.",
+    "entry": {
+      "latitude": null,
+      "longitude": null,
+      "elevation": 670,
+      "verified": true,
+      "source": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_27111.html",
+      "latitude": 47.515694,
+      "longitude": 12.758389,
+      "label": "Einstiegkoordinate laut den übermittelten Tourenquellen; Einstiegshöhe laut Alpintouren"
+    },
+    "summit": {
+      "latitude": 47.509695,
+      "longitude": 12.762486,
+      "elevation": 830,
+      "verified": true,
+      "source": "https://klettersteig.de/klettersteig/wilde_gams_klettersteig/1850",
+      "label": "Ausstiegspunkt laut Klettersteig.de; Zielhöhe 830 m"
+    },
+    "approachMinutes": 8,
+    "climbMinutes": 55,
+    "descentMinutes": 18,
+    "durationMinutes": 81,
+    "rating": null,
+    "links": [
+      {
+        "label": "Alpintouren",
+        "url": "https://www.alpintouren.com/de/touren/klettersteig/tourbeschreibung/tourdaten_27111.html"
+      },
+      {
+        "label": "Bergwelten",
+        "url": "https://www.bergwelten.com/t/ks/37670"
+      },
+      {
+        "label": "Wilder Kaiser Tourenportal",
+        "url": "https://www.wilderkaiser.info/de/tours/wilde-gams-weissbach.html"
+      },
+      {
+        "label": "Klettersteig.de (Einstiegshinweise und Ausstieg GPS)",
+        "url": "https://klettersteig.de/klettersteig/wilde_gams_klettersteig/1850"
+      }
+    ],
+    "closure": {
+      "status": "Unbekannt",
+      "manual": false,
+      "reason": "",
+      "validFrom": "",
+      "validTo": "",
+      "source": "",
+      "sourceType": "Nicht verifiziert",
+      "checkedAt": "",
+      "note": "Status nicht aktuell unabhängig geprüft.",
+      "automatic": null
+    },
+    "dataQuality": "Einstieg-GPS laut Alpintouren/Bergwelten/Wilder Kaiser Tourenportal übernommen; Einstiegshöhe laut Alpintouren. Ausstiegspunkt und Zielhöhe laut Klettersteig.de."
+  },
+  {
+    "id": "isidor-klettersteig-gruenstein",
+    "active": true,
+    "name": "Isidor Klettersteig Grünstein",
+    "difficulty": "B/C",
+    "range": "Berchtesgadener Alpen",
+    "country": "Deutschland",
+    "description": "Leichteste Grünstein-Variante (bis C) zum Gipfel. GPS des eigentlichen Wandfuß-Einstiegs ist nicht mit der Parkplatzkoordinate gleichzusetzen.",
+    "entry": {
+      "latitude": null,
+      "longitude": null,
+      "elevation": 860,
+      "verified": true,
+      "source": "https://klettersteig.de/klettersteig/x/1742",
+      "latitude": 47.591057,
+      "longitude": 12.987299,
+      "label": "Einstiegkoordinate laut Klettersteig.de, Bergfex und Alpintouren; Einstiegshöhe ca. 860 m laut Höhenrausch"
+    },
+    "summit": {
+      "latitude": 47.594309,
+      "longitude": 12.965505,
+      "elevation": 1304,
+      "verified": true,
+      "source": "https://geofinder.ch/11322",
+      "label": "Grünstein-Gipfelkoordinate und Höhe laut GeoFinder"
+    },
+    "approachMinutes": 45,
+    "climbMinutes": 105,
+    "descentMinutes": 45,
+    "durationMinutes": 195,
+    "rating": null,
+    "links": [
+      {
+        "label": "Klettersteig.de (Grünstein-Varianten)",
+        "url": "https://klettersteig.de/klettersteig/x/1742"
+      },
+      {
+        "label": "Bergfex (Isidor-Variante)",
+        "url": "https://www.bergfex.de/sommer/bayern/touren/klettersteig/46332,gruenstein-klettersteig--isidor-variante?p=report%2F"
+      },
+      {
+        "label": "Alpintouren (Grünstein)",
+        "url": "https://www.alpintouren.com/de/touren/wandern/tourbeschreibung/tourdaten_28650.html"
+      },
+      {
+        "label": "Höhenrausch (Einstiegshöhe und Route)",
+        "url": "https://www.hoehenrausch.de/berge/gruenstein/klettersteig/"
+      },
+      {
+        "label": "Berchtesgaden Tourismus (Wintersperre)",
+        "url": "https://www.berchtesgaden.de/touren/gruenstein-klettersteig"
+      }
+    ],
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Saisonale Wintersperre; je nach Witterung von Anfang November bis Ende März.",
+      "validFrom": "2026-11-01",
+      "validTo": "2027-03-31",
+      "source": "https://www.berchtesgaden.de/touren/gruenstein-klettersteig",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Saisonale Sperre, keine dauerhafte Sperrung. Nach dem Zeitraum wird der Status unbekannt.",
+      "automatic": null
+    },
+    "dataQuality": "Einstiegskoordinate laut Klettersteig.de/Bergfex/Alpintouren; Gipfelkoordinate und Höhe laut GeoFinder."
+  },
+  {
+    "id": "pidinger-klettersteig",
+    "active": true,
+    "name": "Pidinger Klettersteig",
+    "difficulty": "D",
+    "range": "Chiemgauer Alpen",
+    "country": "Deutschland",
+    "description": "Langer, anspruchsvoller Klettersteig von Urwies auf den Hochstaufen.",
+    "entry": {
+      "latitude": 47.759722,
+      "longitude": 12.853333,
+      "elevation": 1069,
+      "verified": true,
+      "source": "https://de.wikipedia.org/wiki/Pidinger_Klettersteig",
+      "elevationSource": "https://www.piding.de/urlaub/pidinger-klettersteig",
+      "label": "GPS-Punkt laut Wikipedia; Einstiegshöhe laut Gemeinde Piding"
+    },
+    "summit": {
+      "latitude": 47.75496,
+      "longitude": 12.84876,
+      "elevation": 1771,
+      "verified": true,
+      "source": "https://geofinder.ch/3895",
+      "label": "Hochstaufen-Gipfel, kartografische Koordinate und Höhe"
+    },
+    "approachMinutes": null,
+    "climbMinutes": null,
+    "descentMinutes": null,
+    "durationMinutes": null,
+    "durationRangeMinutes": [420, 480],
+    "ascentMeters": 1320,
+    "travelTimeMinutes": null,
+    "rating": null,
+    "links": [
+      {
+        "label": "Gemeinde Piding (Toureninformationen und Saisonstatus)",
+        "url": "https://www.piding.de/urlaub/pidinger-klettersteig"
+      },
+      {
+        "label": "Bergwelten (Einstieg GPS, Schwierigkeit und Dauer)",
+        "url": "https://www.bergwelten.com/t/ks/36730"
+      },
+      {
+        "label": "GeoFinder (Hochstaufen-Gipfel)",
+        "url": "https://geofinder.ch/3895"
+      }
+    ],
+    "closure": {
+      "status": "Gesperrt",
+      "manual": false,
+      "reason": "Für die Saison 2026 geschlossen.",
+      "validFrom": "",
+      "validTo": "",
+      "source": "https://www.piding.de/urlaub/pidinger-klettersteig",
+      "sourceType": "Offiziell bestätigt",
+      "checkedAt": "2026-11-18",
+      "note": "Die Gemeinde Piding meldet das Saisonende 2026 und kündigt Wiederöffnung im Frühjahr 2027 an; Status vor der nächsten Saison erneut prüfen.",
+      "automatic": null
+    },
+    "dataQuality": "Einstieg-GPS laut Bergwelten, Einstiegshöhe und Gesamtanstieg laut Gemeinde Piding; Gipfelkoordinate und -höhe kartografisch belegt. Dauer ist als Quellbereich 7–8 Stunden gespeichert. Keine bestätigte Fahrzeit verfügbar."
+  }
+]

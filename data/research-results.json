@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-18T12:21:36+00:00",
+  "results": [
+    {
+      "routeId": "tassilo-schermberg",
+      "name": "Schermberg Klettersteig Tassilo",
+      "researchedAt": null,
+      "mode": "manual_candidate_review",
+      "summary": "Der Koordinatenkandidat wurde nicht in locations.json übernommen: 47.755026, 14.017780 wurde zuvor als Almtalerhaus/Startpunkt (714 m) genannt. Das passt nicht zur separat belegten Einstiegshöhe von 1.840 m. Der tatsächliche Einstieg muss über einen eindeutigen Routenpunkt verifiziert werden.",
+      "sources": [
+        {
+          "url": "https://www.bergsteigerdoerfer.org/111-0-Gruenau-Klettersteige.html",
+          "title": "Bergsteigerdorf Grünau – Klettersteige",
+          "reliability": "Tourenbeschreibung; exakter Einstieg nicht bestätigt"
+        },
+        {
+          "url": "https://www.via-ferrata.de/klettersteige/topo/tassilo-klettersteig-am-schermberg",
+          "title": "Via Ferrata – Tassilo-Klettersteig",
+          "reliability": "Tourenbeschreibung; exakter Einstieg nicht bestätigt"
+        }
+      ],
+      "fields": [
+        {
+          "path": "entry.latitude",
+          "currentValue": null,
+          "proposedValue": 47.755026,
+          "confidence": 0.1,
+          "verificationStatus": "unverified",
+          "conflict": true,
+          "rationale": "Der Punkt wurde zuvor als Almtalerhaus angegeben, nicht als Klettersteigeinstieg.",
+          "sources": []
+        },
+        {
+          "path": "entry.longitude",
+          "currentValue": null,
+          "proposedValue": 14.01778,
+          "confidence": 0.1,
+          "verificationStatus": "unverified",
+          "conflict": true,
+          "rationale": "Der Punkt wurde zuvor als Almtalerhaus angegeben, nicht als Klettersteigeinstieg.",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
